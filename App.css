@@ -1,0 +1,36 @@
+.Header-container{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 3rem;
+}
+
+.logo{
+    width: 100px;
+}
+
+.nav-list{
+    display: flex;
+}
+
+.nav-list>li{
+    padding: 0.8rem;
+    font-size:1.2rem;
+    list-style-type:none;
+}
+
+.card-container{
+    width: 200px;
+    border: 1px solid black;
+    padding:0.5rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.card-container>img{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.body-container{
+    display: flex;
+}
